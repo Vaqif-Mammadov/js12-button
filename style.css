@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: teal;
+}
+
+table {
+    width: 1200px;
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
+
+button {
+    padding: 6px 12px;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+}
+
+.addBtn {
+    background-color: lime;
+    font-size: 18px;
+}
+
+.saveBtn {
+    background-color: rgb(255, 213, 0);
+    margin-right: 10px;
+}
+
+.cancelBtn {
+    background-color: rgb(255, 34, 0);
+}
+
+input {
+    outline: 0;
+    padding: 6px;
+}
